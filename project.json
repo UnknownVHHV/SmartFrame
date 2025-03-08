@@ -1,0 +1,20 @@
+{
+  "name": "AIFrame",
+  "version": "1.2",
+  "releaseDate": "2025-03-09",
+  "type": "esp32",
+  "board": "ESP32-D-Wroom",
+  "description": "AI фоторамка с нейросетью Kandinsky",
+  "framework": "arduino",
+  "files": {
+    "firmware.bin": {
+      "url": "https://github.com/UnknownVHHV/AiFrame/releases/download/v1.2/firmware.bin",
+      "md5": "place_md5_hash_here"
+    }
+  },
+  "changelog": [
+    "Добавлена система автоматических обновлений",
+    "Улучшен энергосберегающий режим",
+    "Исправлены ошибки в управлении яркостью"
+  ]
+}
