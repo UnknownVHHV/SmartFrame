@@ -1,5 +1,26 @@
 {
+  "name": "AiFrame",
+  "about": "Фоторамка с нейросетью",
   "version": "1.2",
-  "url": "https://github.com/UnknownVHHV/AiFrame/releases/download/1.2/firmware.bin",
-  "changelog": "Initial release of AiFrame firmware.",
+  "notes": "Обновление системы",
+  "builds": [
+    {
+      "chipFamily": "ESP8266",
+      "parts": [
+        {
+          "path": "https://github.com/UnknownVHHV/AiFrame/releases/download/1.2/firmware.bin",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "https://raw.githubusercontent.com/UnknownVHHV/AiFrame/main/bin/firmware.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
 }
