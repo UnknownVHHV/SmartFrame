@@ -8,7 +8,7 @@
       "chipFamily": "ESP8266",
       "parts": [
         {
-          "path": "https://ghproxy.com/https://raw.githubusercontent.com/UnknownVHHV/AiFrame/main/bin/firmware.bin",
+          "path": "https://cdn.jsdelivr.net/gh/UnknownVHHV/AiFrame@main/bin/firmware.bin",
           "offset": 0
         }
       ]
