@@ -8,7 +8,7 @@
       "chipFamily": "ESP8266",
       "parts": [
         {
-          "path": "https://cdn.jsdelivr.net/gh/UnknownVHHV/AiFrame@main/bin/firmware.bin",
+          "path": "https://github.com/UnknownVHHV/AiFrame/releases/latest/download/firmware.bin",
           "offset": 0
         }
       ]
