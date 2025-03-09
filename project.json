@@ -17,7 +17,7 @@
       "chipFamily": "ESP32",
       "parts": [
         {
-          "path": "https://raw.githubusercontent.com/UnknownVHHV/AiFrame/main/bin/firmware.bin",
+          "path": "https://cdn.jsdelivr.net/gh/UnknownVHHV/AiFrame@main/bin/firmware.bin",
           "offset": 0
         }
       ]
