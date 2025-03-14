@@ -1,8 +1,8 @@
 {
-  "name": "AiFrame",
-  "about": "Фоторамка с нейросетью",
+  "name": "SmartFrame",
+  "about": "Smart device",
   "version": "1.2.0",
-  "notes": "Обновление системы",
+  "notes": "System Update",
   "builds": [
     {
       "chipFamily": "ESP8266",
