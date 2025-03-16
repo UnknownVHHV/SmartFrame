@@ -1,6 +1,6 @@
 {
   "name": "SmartFrame",
-  "version": "1.2.25",
+  "version": "1.2.26",
   "notes": "Fixes problems after the latest firmware",
   "builds": [
     {
