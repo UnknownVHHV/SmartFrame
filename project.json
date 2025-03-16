@@ -1,7 +1,7 @@
 {
   "name": "SmartFrame",
-  "about": "Фоторамка с нейросетью",
-  "version": "1.1",
+  "about": "Smart device",
+  "version": "1.2",
   "notes": "System Update",
   "builds": [
     {
