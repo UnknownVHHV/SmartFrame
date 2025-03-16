@@ -1,14 +1,14 @@
 {
-  "name": "GyverHub-example",
-  "about": "Образец оформления репозитория проекта",
+  "name": "SmartFrame",
+  "about": "Smart device",
   "version": "1.2",
-  "notes": "Исправлены мелкие баги",
+  "notes": "System Update",
   "builds": [
     {
       "chipFamily": "ESP8266",
       "parts": [
         {
-          "path": "https://raw.githubusercontent.com/GyverLibs/GyverHub-example/main/bin/firmware.bin",
+          "path": "https://raw.githubusercontent.com/UnknownVHHV/SmartFrame/main/bin/esp8266/firmware.bin",
           "offset": 0
         }
       ]
@@ -16,37 +16,10 @@
     {
       "chipFamily": "ESP32",
       "parts": [
-        {
-          "path": "https://raw.githubusercontent.com/GyverLibs/GyverHub-example/main/bin/firmware.bin",
-          "offset": 0
-        }
-      ]
-    },
-    {
-      "chipFamily": "ESP32-C3",
-      "parts": [
-        {
-          "path": "https://raw.githubusercontent.com/GyverLibs/GyverHub-example/main/bin/firmware.bin",
-          "offset": 0
-        }
-      ]
-    },
-    {
-      "chipFamily": "ESP32-S2",
-      "parts": [
-        {
-          "path": "https://raw.githubusercontent.com/GyverLibs/GyverHub-example/main/bin/firmware.bin",
-          "offset": 0
-        }
-      ]
-    },
-    {
-      "chipFamily": "ESP32-S3",
-      "parts": [
-        {
-          "path": "https://raw.githubusercontent.com/GyverLibs/GyverHub-example/main/bin/firmware.bin",
-          "offset": 0
-        }
+        { "path": "https://raw.githubusercontent.com/UnknownVHHV/SmartFrame/main/bin/esp32/bootloader.bin", "offset": 4096 },
+        { "path": "https://raw.githubusercontent.com/UnknownVHHV/SmartFrame/main/bin/esp32/partitions.bin", "offset": 32768 },
+        { "path": "https://raw.githubusercontent.com/UnknownVHHV/SmartFrame/main/bin/esp32/boot_app0.bin", "offset": 57344 },
+        { "path": "https://raw.githubusercontent.com/UnknownVHHV/SmartFrame/main/bin/esp32/firmware.bin", "offset": 65536 }
       ]
     }
   ]
