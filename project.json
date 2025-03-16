@@ -1,7 +1,7 @@
 {
   "name": "SmartFrame",
   "version": "1.2.4",
-  "notes": "Changing AutoOTA functionality",
+  "notes": "Improved settings menu and added new update options",
   "builds": [
     {
       "chipFamily": "ESP8266",
