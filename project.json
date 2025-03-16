@@ -1,8 +1,8 @@
 {
-  "name": "SmartFrame",
-  "about": "Smart device",
-  "version": "1.2",
-  "notes": "System Update",
+  "name": "AiFrame",
+  "about": "Фоторамка с нейросетью",
+  "version": "1.1",
+  "notes": "Добавлена OTA",
   "builds": [
     {
       "chipFamily": "ESP8266",
@@ -11,15 +11,6 @@
           "path": "https://raw.githubusercontent.com/UnknownVHHV/SmartFrame/main/bin/esp8266/firmware.bin",
           "offset": 0
         }
-      ]
-    },
-    {
-      "chipFamily": "ESP32",
-      "parts": [
-        { "path": "https://raw.githubusercontent.com/UnknownVHHV/SmartFrame/main/bin/esp32/bootloader.bin", "offset": 4096 },
-        { "path": "https://raw.githubusercontent.com/UnknownVHHV/SmartFrame/main/bin/esp32/partitions.bin", "offset": 32768 },
-        { "path": "https://raw.githubusercontent.com/UnknownVHHV/SmartFrame/main/bin/esp32/boot_app0.bin", "offset": 57344 },
-        { "path": "https://raw.githubusercontent.com/UnknownVHHV/SmartFrame/main/bin/esp32/firmware.bin", "offset": 65536 }
       ]
     }
   ]
