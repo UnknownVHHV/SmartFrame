@@ -1,7 +1,7 @@
 {
   "name": "SmartFrame",
-  "version": "1.2.1",
-  "notes": "Bug fixes and OTA system check",
+  "version": "1.2.2",
+  "notes": "Allows you to choose whether or not to update the firmware. Bug fixes.",
   "builds": [
     {
       "chipFamily": "ESP8266",
