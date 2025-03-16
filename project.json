@@ -1,8 +1,7 @@
 {
   "name": "SmartFrame",
-  "about": "Smart device",
-  "version": "1.2",
-  "notes": "System Update",
+  "version": "1.2.1",
+  "notes": "Bug fixes and OTA system check",
   "builds": [
     {
       "chipFamily": "ESP8266",
