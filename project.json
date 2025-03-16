@@ -1,7 +1,7 @@
 {
   "name": "SmartFrame",
   "version": "1.2.5",
-  "notes": "Improved settings menu and added new update options, bug fix.",
+  "notes": "Improved settings menu and added new update options, bugs fix.",
   "builds": [
     {
       "chipFamily": "ESP8266",
