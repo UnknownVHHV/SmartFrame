@@ -1,6 +1,6 @@
 {
   "name": "SmartFrame",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "notes": "Adding new alerts during update, bug fixes.",
   "builds": [
     {
