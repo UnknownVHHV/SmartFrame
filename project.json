@@ -11,6 +11,15 @@
           "offset": 0
         }
       ]
+    },
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "https://raw.githubusercontent.com/UnknownVHHV/SmartFrame/main/bin/esp32/firmware.bin",
+          "offset": 0
+        }
+      ]
     }
   ]
 }
