@@ -1,7 +1,7 @@
 {
   "name": "SmartFrame",
-  "version": "1.3.3",
-  "notes": "New Kandinsky and optimization of moon phase data retrieval",
+  "version": "1.3.4",
+  "notes": "New flash system, log output and bug fixes.",
   "builds": [
     {
       "chipFamily": "ESP8266",
