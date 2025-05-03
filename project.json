@@ -1,7 +1,7 @@
 {
   "name": "SmartFrame",
   "version": "1.4.0",
-  "notes": "update.",
+  "notes": "New moonAPI. Bugs fix.",
   "builds": [
     {
       "chipFamily": "ESP8266",
