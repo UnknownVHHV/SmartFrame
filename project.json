@@ -1,7 +1,7 @@
 {
   "name": "SmartFrame",
-  "version": "1.4.0",
-  "notes": "New moonAPI and bugs fix.",
+  "version": "1.4.1",
+  "notes": "Improved WIFI reconnection and firmware update.",
   "builds": [
     {
       "chipFamily": "ESP8266",
