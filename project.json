@@ -1,6 +1,6 @@
 {
   "name": "SmartFrame",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "notes": "Improved WIFI reconnection and firmware update.",
   "builds": [
     {
