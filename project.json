@@ -1,7 +1,7 @@
 {
   "name": "SmartFrame",
-  "version": "1.4.1",
-  "notes": "Improved WIFI reconnection and firmware update.",
+  "version": "1.4.3",
+  "notes": "NEW: Brightness control function and night mode.",
   "builds": [
     {
       "chipFamily": "ESP8266",
