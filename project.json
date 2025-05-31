@@ -1,7 +1,7 @@
 {
   "name": "SmartFrame",
-  "version": "1.4.3",
-  "notes": "NEW: Brightness control function and night mode.",
+  "version": "1.4.4",
+  "notes": "Auto/Manual brightness and optimize settings.",
   "builds": [
     {
       "chipFamily": "ESP8266",
