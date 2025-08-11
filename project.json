@@ -1,7 +1,7 @@
 {
   "name": "SmartFrame",
-  "version": "1.4.4",
-  "notes": "Auto/Manual brightness and optimize settings.",
+  "version": "1.5.0,
+  "notes": "Complete change in device functionality.",
   "builds": [
     {
       "chipFamily": "ESP8266",
