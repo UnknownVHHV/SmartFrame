@@ -1,7 +1,7 @@
 {
   "name": "SmartFrame",
-  "version": "1.5.2",
-  "notes": "3-day forecast added.",
+  "version": "1.5.3",
+  "notes": "Adding new parameters.",
   "builds": [
     {
       "chipFamily": "ESP8266",
