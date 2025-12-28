@@ -1,7 +1,7 @@
 {
   "name": "SmartFrame",
-  "version": "1.5.3",
-  "notes": "Adding new parameters.",
+  "version": "1.5.4",
+  "notes": "Fixing the moon phase display.",
   "builds": [
     {
       "chipFamily": "ESP8266",
