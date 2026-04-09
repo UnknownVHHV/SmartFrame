@@ -1,6 +1,6 @@
 {
   "name": "SmartFrame",
-  "version": "1.6.85",
+  "version": "1.6.86",
   "notes": "Changes to automatic brightness calibration, improvements to night mode, fixes to the device update screen, and other fixes.",
   "builds": [
     {
