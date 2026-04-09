@@ -1,7 +1,7 @@
 {
   "name": "SmartFrame",
-  "version": "1.6.84",
-  "notes": "Auto-brightness calibration and night mode optimization.",
+  "version": "1.6.85",
+  "notes": "Changes to automatic brightness calibration, improvements to night mode, fixes to the device update screen, and other fixes.",
   "builds": [
     {
       "chipFamily": "ESP8266",
