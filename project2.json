@@ -7,7 +7,7 @@
       "chipFamily": "ESP8266",
       "parts": [
         {
-          "path": "https://unknownvhhv.github.io/SmartFrame/bin/esp8266-ili9488/firmware.bin",
+          "path": "http://unknownvhhv.github.io/SmartFrame/bin/esp8266-ili9488/firmware.bin",
           "offset": 0
         }
       ]
