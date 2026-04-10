@@ -1,13 +1,13 @@
 {
   "name": "SmartFrame",
-  "version": "1.6.95",
+  "version": "1.6.96",
   "notes": "Bug fix.",
   "builds": [
     {
       "chipFamily": "ESP8266",
       "parts": [
         {
-          "path": "https://github.com/UnknownVHHV/SmartFrame/releases/download/v1.6.94/firmware.bin",
+          "path": "https://unknownvhhv.github.io/SmartFrame/bin/esp8266-ili9488/firmware.bin",
           "offset": 0
         }
       ]
