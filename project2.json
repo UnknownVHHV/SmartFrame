@@ -1,7 +1,7 @@
 {
   "name": "SmartFrame",
   "version": "1.6.96",
-  "notes": "Bug fix.",
+  "notes": "OTA fixed",
   "builds": [
     {
       "chipFamily": "ESP8266",
