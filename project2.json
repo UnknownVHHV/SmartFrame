@@ -1,7 +1,7 @@
 {
   "name": "SmartFrame",
-  "version": "1.6.96",
-  "notes": "Починка OTA обновлений",
+  "version": "1.6.97",
+  "notes": "=== EN ===\n- Fixed forecast alignment\n- Fixed degree symbol\n\n=== RU ===\n- Исправлено выравнивание\n- Исправлен значок градуса",
   "builds": [
     {
       "chipFamily": "ESP8266",
