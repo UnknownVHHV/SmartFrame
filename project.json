@@ -7,7 +7,7 @@
       "chipFamily": "ESP8266",
       "parts": [
         {
-          "path": "https://raw.githubusercontent.com/UnknownVHHV/SmartFrame/main/bin/esp8266/firmware.bin",
+          "path": "https://raw.githubusercontent.com/UnknownVHHV/SmartFrame/main/bin/esp8266/firmware_tft4.bin",
           "offset": 0
         }
       ]
@@ -16,7 +16,7 @@
       "chipFamily": "ESP32",
       "parts": [
         {
-          "path": "https://raw.githubusercontent.com/UnknownVHHV/SmartFrame/main/bin/esp32/firmware.bin",
+          "path": "https://raw.githubusercontent.com/UnknownVHHV/SmartFrame/main/bin/esp32/firmware_tft4.bin",
           "offset": 0
         }
       ]
