@@ -1,7 +1,7 @@
 {
   "name": "SmartFrame",
   "version": "1.6.99",
-  "notes": "=== EN ===\n- Logs are now available in the regular web UI; developer controls in Logs remain admin-only.\n- Fixed guest-side unauthorized behavior by blocking restricted widget updates for non-admin sessions.\n- Improved Device Info: removed duplicate WiFi drops metric and added color-coded health states.\n- Improved startup error flow: screen redraw is now consistent to avoid overlay artifacts.\n\n=== RU ===\n- Логи теперь доступны в обычном веб-интерфейсе; управляющие функции логов оставлены только для админа.\n- Исправлено появление unauthorized у гостя: закрытые виджеты больше не обновляются без прав.\n- Улучшен экран информации: убран дублирующий параметр отвала WiFi и добавлена цветовая индикация состояния.\n- Улучшен сценарий ошибок при старте: экран теперь перерисовывается стабильно, без наложений.",
+  "notes": "",
   "builds": [
     {
       "chipFamily": "ESP8266",
