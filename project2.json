@@ -1,7 +1,7 @@
 {
   "name": "SmartFrame",
-  "version": "1.6.99",
-  "notes": "",
+  "version": "1.7.0",
+  "notes": "=== EN ===\n- Stability and UI improvements.\n- Improved network and OTA behavior.\n- Fixed issues affecting screen and data updates.\n\n=== RU ===\n- Улучшения стабильности и интерфейса.\n- Улучшена работа сети и OTA.\n- Исправлены ошибки обновления экрана и данных.",
   "builds": [
     {
       "chipFamily": "ESP8266",
