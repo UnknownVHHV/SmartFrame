@@ -16,9 +16,7 @@
       },
       "build": {
         "chipFamily": "ESP8266",
-        "path": "https://unknownvhhv.github.io/SmartFrame/bin/esp8266-ili9488/firmware_ili9488_tft4_v2.bin",
-        "size": 712704,
-        "sha256": "..."
+        "path": "https://unknownvhhv.github.io/SmartFrame/bin/esp8266-ili9488/firmware_ili9488_tft4_v2.bin"
       }
     },
     "ESP8266_ST7735_TFT4": {
@@ -29,22 +27,24 @@
       },
       "build": {
         "chipFamily": "ESP8266",
-        "path": "https://unknownvhhv.github.io/SmartFrame/bin/esp8266/firmware_tft4.bin",
-        "size": 524288,
-        "sha256": "..."
+        "path": "https://raw.githubusercontent.com/UnknownVHHV/SmartFrame/main/bin/esp8266/firmware_tft4.bin"
       }
-    },
+    }
     "ESP32_ILI9488_TFT3_5": {
       "version": "1.2.4",
       "notes": {
-        "en": ["..."],
-        "ru": ["..."]
+        "en": [
+          "ESP32 build updated.",
+          "ILI9488 TFT3.5 firmware improvements."
+        ],
+        "ru": [
+          "Обновлена сборка для ESP32.",
+          "Улучшения прошивки для ILI9488 TFT3.5."
+        ]
       },
       "build": {
         "chipFamily": "ESP32",
-        "path": "https://unknownvhhv.github.io/SmartFrame/bin/esp32-ili9488/firmware_tft3_5.bin",
-        "size": 1507328,
-        "sha256": "..."
+        "path": "https://unknownvhhv.github.io/SmartFrame/bin/esp32-ili9488/firmware_tft3_5.bin"
       }
     }
   }
