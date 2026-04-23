@@ -29,7 +29,7 @@
         "chipFamily": "ESP8266",
         "path": "https://raw.githubusercontent.com/UnknownVHHV/SmartFrame/main/bin/esp8266/firmware_tft4.bin"
       }
-    }
+    },
     "ESP32_ILI9488_TFT3_5": {
       "version": "1.2.4",
       "notes": {
