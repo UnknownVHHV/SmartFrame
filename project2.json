@@ -44,7 +44,7 @@
       },
       "build": {
         "chipFamily": "ESP32",
-        "path": "https://unknownvhhv.github.io/SmartFrame/bin/esp32-ili9488/firmware_tft3_5.bin"
+        "path": "https://unknownvhhv.github.io/SmartFrame/bin/esp32-ili9488_tft3.5/firmware_esp32_ili9488_tft3.5.bin"
       }
     }
   }
