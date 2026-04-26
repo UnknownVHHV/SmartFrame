@@ -31,7 +31,7 @@
       }
     },
     "ESP32_ILI9488_TFT3_5": {
-      "version": "2.0.2",
+      "version": "2.0.3",
       "notes": {
         "en": [
           "ESP32 build updated.",
