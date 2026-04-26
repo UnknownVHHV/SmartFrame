@@ -33,14 +33,14 @@
     "ESP32_ILI9488_TFT3_5": {
       "version": "2.0.3",
       "notes": {
-"en": [
-  "OTA screen layout improved.",
-  "Bigger progress indicator and cleaner visual structure."
-],
-"ru": [
-  "Улучшена компоновка OTA-экрана.",
-  "Увеличен индикатор прогресса и упрощён интерфейс."
-]
+        "en": [
+          "OTA screen layout improved.",
+          "Bigger progress indicator and cleaner visual structure."
+          ],
+        "ru": [
+          "Улучшена компоновка OTA-экрана.",
+          "Увеличен индикатор прогресса и упрощён интерфейс."
+          ]
       },
       "build": {
         "chipFamily": "ESP32",
