@@ -31,15 +31,15 @@
       }
     },
     "ESP32_ILI9488_TFT3_5": {
-      "version": "2.0.4",
+      "version": "2.0.5",
       "notes": {
 "en": [
-  "OTA process improved and stabilized.",
-  "Clear update stages and UI behavior fixes."
+  "Fixed unauthorized access in logs.",
+  "Improved battery measurement accuracy and reduced TLS warning spam."
 ],
 "ru": [
-  "Улучшен и стабилизирован процесс OTA.",
-  "Добавлены понятные этапы обновления и исправлено поведение интерфейса."
+  "Исправлен доступ к логам без авторизации.",
+  "Улучшено измерение батареи и уменьшен спам TLS предупреждений."
 ]
       },
       "build": {
