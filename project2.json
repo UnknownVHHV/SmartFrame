@@ -31,15 +31,15 @@
       }
     },
     "ESP32_ILI9488_TFT3_5": {
-      "version": "2.0.5",
+      "version": "2.0.6",
       "notes": {
 "en": [
-  "Fixed unauthorized access in logs.",
-  "Improved battery measurement accuracy and reduced TLS warning spam."
+  "Refined auth handling and log access.",
+  "Fixed battery calibration and improved response handling."
 ],
 "ru": [
-  "Исправлен доступ к логам без авторизации.",
-  "Улучшено измерение батареи и уменьшен спам TLS предупреждений."
+  "Улучшена обработка авторизации и доступ к логам.",
+  "Исправлена калибровка батареи и обработка ответов."
 ]
       },
       "build": {
