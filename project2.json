@@ -31,15 +31,15 @@
       }
     },
     "ESP32_ILI9488_TFT3_5": {
-      "version": "2.0.6",
+      "version": "2.0.8",
       "notes": {
 "en": [
-  "Refined auth handling and log access.",
-  "Fixed battery calibration and improved response handling."
+  "Polished UI layout and improved visual balance.",
+  "Battery percentage now shows correctly on startup."
 ],
 "ru": [
-  "Улучшена обработка авторизации и доступ к логам.",
-  "Исправлена калибровка батареи и обработка ответов."
+  "Отполирован интерфейс и улучшен визуальный баланс.",
+  "Процент батареи теперь корректно отображается при запуске."
 ]
       },
       "build": {
