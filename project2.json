@@ -2,23 +2,23 @@
   "name": "SmartFrame",
   "manifestVersion": 1,
   "devices": {
-"ESP8266_ILI9488_TFT4_V2": {
-  "version": "1.7.2",
-  "notes": {
-    "en": [
-      "Stability and UI improvements.",
-      "Improved network and OTA behavior."
-    ],
-    "ru": [
-      "Улучшения стабильности и интерфейса.",
-      "Улучшена работа сети и OTA."
-    ]
-  },
-  "build": {
-    "chipFamily": "ESP8266",
-    "path": "http://YOUR_SERVER/SmartFrame/bin/esp8266-ili9488/firmware.bin"
-  }
-},
+    "ESP8266_ILI9488_TFT4_V2": {
+      "version": "1.7.2",
+      "notes": {
+        "en": [
+          "Stability and UI improvements.",
+          "Improved network and OTA behavior."
+        ],
+        "ru": [
+          "Улучшения стабильности и интерфейса.",
+          "Улучшена работа сети и OTA."
+        ]
+      },
+      "build": {
+        "chipFamily": "ESP8266",
+        "path": "https://unknownvhhv.github.io/SmartFrame/bin/esp8266-ili9488/firmware.bin"
+      }
+    },
     "ESP8266_ST7735_TFT4": {
       "version": "1.5.7",
       "notes": {
