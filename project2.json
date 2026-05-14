@@ -31,20 +31,20 @@
       }
     },
     "ESP32_ILI9488_TFT3_5": {
-      "version": "2.0.8",
+      "version": "2.1.0",
       "notes": {
 "en": [
-  "Polished UI layout and improved visual balance.",
-  "Battery percentage now shows correctly on startup."
+  "Refined weather layout, Wi-Fi indicator smoothing and theme colors.",
+  "Reduced full-screen flashing and improved auto-brightness handling."
 ],
 "ru": [
-  "Отполирован интерфейс и улучшен визуальный баланс.",
-  "Процент батареи теперь корректно отображается при запуске."
+  "Доработаны компоновка погоды, сглаживание Wi-Fi индикатора и цвета интерфейса.",
+  "Уменьшено мигание экрана и улучшена работа автояркости."
 ]
       },
       "build": {
         "chipFamily": "ESP32",
-        "path": "https://unknownvhhv.github.io/SmartFrame/bin/esp32-ili9488_tft3.5/firmware_esp32_ili9488_tft3.5.bin"
+        "path": "https://unknownvhhv.github.io/SmartFrame/bin/esp32-ili9488_tft3.5/firmware.bin"
       }
     }
   }
