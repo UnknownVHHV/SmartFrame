@@ -31,15 +31,15 @@
       }
     },
     "ESP32_ILI9488_TFT3_5": {
-      "version": "2.1.6",
+      "version": "2.1.7",
       "notes": {
 "en": [
-  "Introduced the first major security layer overhaul for ESP32 builds.",
-  "Added CA-based TLS verification for weather, OTA and API requests, improved password handling and enabled secure-by-default TLS settings."
+  "Introduced a new modular page/navigation system with improved touch handling and UI structure.",
+  "Added secure TLS verification for OTA updates, expanded weather data rendering and improved Control panel behavior."
 ],
 "ru": [
-  "Добавлен первый крупный уровень переработки безопасности для ESP32-сборок.",
-  "Реализована CA-based TLS-проверка для погоды, OTA и API-запросов, улучшена работа паролей и включены безопасные TLS-настройки по умолчанию."
+  "Добавлена новая модульная система страниц и навигации с улучшенной обработкой касаний и структурой интерфейса.",
+  "Реализована безопасная TLS-проверка для OTA-обновлений, расширен вывод погодных данных и улучшена работа панели Control."
 ]
       },
       "build": {
