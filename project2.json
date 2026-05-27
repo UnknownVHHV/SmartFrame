@@ -34,12 +34,14 @@
       "version": "2.1.2",
       "notes": {
 "en": [
-  "Refined weather layout, Wi-Fi indicator smoothing and theme colors.",
-  "Reduced full-screen flashing and improved auto-brightness handling."
+  "Refined weather layout, smoother Wi-Fi indicator rendering and updated interface colors.",
+  "Reduced screen flashing, improved auto-brightness behavior and optimized OTA update flow.",
+  "Added proper ADC4095 auto-brightness support for ESP32."
 ],
 "ru": [
-  "Доработаны компоновка погоды, сглаживание Wi-Fi индикатора и цвета интерфейса.",
-  "Уменьшено мигание экрана и улучшена работа автояркости."
+  "Доработаны компоновка погоды, сглаживание отображения Wi-Fi индикатора и цвета интерфейса.",
+  "Уменьшено мигание экрана, улучшена работа автояркости и оптимизирован процесс OTA-обновления.",
+  "Добавлена полноценная поддержка автояркости ADC4095 для ESP32."
 ]
       },
       "build": {
