@@ -31,25 +31,23 @@
       }
     },
 "ESP32_ILI9488_TFT3_5": {
-  "version": "2.1.9",
+  "version": "2.2.0",
 "summary": {
-  "en": "Refined themes, improved weather UI layout and smoother OTA progress handling.",
-  "ru": "Доработаны темы, улучшена компоновка погодного интерфейса и сглажена работа OTA-прогресса."
+  "en": "Improved Wi-Fi roaming stability, weather icon rendering and reconnect behavior.",
+  "ru": "Улучшены стабильность Wi-Fi roaming, рендер погодных иконок и логика переподключения."
 },
 "notes": {
   "en": [
-    "Fixed theme naming mismatch: Ocean and Mint now correctly match their actual colors.",
-    "Original theme now uses a secondary aqua accent alongside warm orange highlights.",
-    "Adjusted Pressure and UV positioning on the Home screen to avoid navigation overlap.",
-    "Reduced weather icon size on Today and added 2x rendering scale for JPG PNG icons.",
-    "Smoothed OTA progress behavior to prevent progress rollback and unnecessary full-screen redraws."
+    "Today weather icons are now properly centered using their real scaled PNG dimensions.",
+    "Reworked Wi-Fi roaming logic with preferred Wi-Fi reconnection and smarter BSSID selection.",
+    "Fixed redundant reconnect attempts when opening the Device Info screen.",
+    "Roaming thresholds are now more aggressive with RSSI-based AP switching for better signal stability."
   ],
   "ru": [
-    "Исправлена путаница с названиями тем: Ocean и Mint теперь соответствуют своим реальным цветам.",
-    "В теме Original добавлен второй акцентный цвет: тёплые оранжевые элементы дополнены аква-голубыми акцентами.",
-    "На главном экране скорректировано расположение Pressure и UV, чтобы избежать наложения на навигацию.",
-    "На странице Today уменьшены погодные иконки и добавлен рендер PNG/JPG иконок в масштабе 2x.",
-    "Сглажена работа OTA-прогресса: устранены откаты полосы и лишние полные перерисовки экрана."
+    "Иконки погоды на Today теперь корректно центрируются с учётом реального размера масштабированных PNG.",
+    "Переработана логика Wi-Fi roaming: добавлено preferred Wi-Fi переподключение и более умный выбор BSSID.",
+    "Исправлены лишние попытки переподключения при открытии экрана Device Info.",
+    "Порог roaming стал агрессивнее: переключение между точками теперь учитывает RSSI для более стабильного сигнала."
   ]
   },
   "build": {
