@@ -18,7 +18,7 @@
         "chipFamily": "ESP8266",
         "path": "https://unknownvhhv.github.io/SmartFrame/bin/esp8266-ili9488/firmware.bin"
       }
-    },
+    }, 
     "ESP8266_ST7735_TFT4": {
       "version": "1.5.7",
       "notes": {
