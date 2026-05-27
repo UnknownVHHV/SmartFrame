@@ -30,34 +30,34 @@
         "path": "https://raw.githubusercontent.com/UnknownVHHV/SmartFrame/main/bin/esp8266/firmware_tft4.bin"
       }
     },
-    "ESP32_ILI9488_TFT3_5": {
-      "version": "2.1.8",
-"summary": {
-  "en": "Improved modular UI, OTA workflow, Wi-Fi roaming and smarter Control screen behavior.",
-  "ru": "Улучшены модульный интерфейс, OTA-поток, Wi-Fi roaming и логика работы экрана Control."
-},
-"notes": {
-  "en": [
-    "Refined page navigation layout and centered Today/Control headers.",
-    "Improved Today weather rendering with better humidity, UV and wind fallback handling.",
-    "Updated Original theme accents for a cleaner multi-tone appearance.",
-    "Control screen now supports side-tap back gestures and partial card-only redraws.",
-    "Added OTA version overview, summary support and unified update flow handling.",
-    "Implemented multi-AP Wi-Fi roaming support with smarter BSSID switching."
-  ],
-  "ru": [
-    "Доработана компоновка навигации и центрирование заголовков Today и Control.",
-    "Улучшен вывод погодных данных: исправлены humidity, UV и обработка отсутствующих порывов ветра.",
-    "Обновлены акценты темы Original для более аккуратного многоцветного оформления.",
-    "Экран Control теперь поддерживает возврат боковым нажатием и частичную перерисовку карточек.",
-    "Добавлены отображение версии OTA, поддержка summary и единый поток обновления.",
-    "Реализована поддержка Wi-Fi roaming с более умным переключением между BSSID."
-  ]
-}
-      },
-      "build": {
-        "chipFamily": "ESP32",
-        "path": "https://unknownvhhv.github.io/SmartFrame/bin/esp32-ili9488_tft3.5/firmware.bin"
-      }
-    }
+"ESP32_ILI9488_TFT3_5": {
+  "version": "2.1.8",
+  "summary": {
+    "en": "Improved modular UI, OTA workflow, Wi-Fi roaming and smarter Control screen behavior.",
+    "ru": "Улучшены модульный интерфейс, OTA-поток, Wi-Fi roaming и логика работы экрана Control."
+  },
+  "notes": {
+    "en": [
+      "Refined page navigation layout and centered Today/Control headers.",
+      "Improved Today weather rendering with better humidity, UV and wind fallback handling.",
+      "Updated Original theme accents for a cleaner multi-tone appearance.",
+      "Control screen now supports side-tap back gestures and partial card-only redraws.",
+      "Added OTA version overview, summary support and unified update flow handling.",
+      "Implemented multi-AP Wi-Fi roaming support with smarter BSSID switching."
+    ],
+    "ru": [
+      "Доработана компоновка навигации и центрирование заголовков Today и Control.",
+      "Улучшен вывод погодных данных: исправлены humidity, UV и обработка отсутствующих порывов ветра.",
+      "Обновлены акценты темы Original для более аккуратного многоцветного оформления.",
+      "Экран Control теперь поддерживает возврат боковым нажатием и частичную перерисовку карточек.",
+      "Добавлены отображение версии OTA, поддержка summary и единый поток обновления.",
+      "Реализована поддержка Wi-Fi roaming с более умным переключением между BSSID."
+    ]
+  },
+  "build": {
+    "chipFamily": "ESP32",
+    "path": "https://unknownvhhv.github.io/SmartFrame/bin/esp32-ili9488_tft3.5/firmware.bin"
   }
+}
+}
+}
