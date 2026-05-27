@@ -31,23 +31,31 @@
       }
     },
 "ESP32_ILI9488_TFT3_5": {
-  "version": "2.2.0",
+  "version": "2.2.1",
 "summary": {
   "en": "Improved Wi-Fi roaming stability, weather icon rendering and reconnect behavior.",
   "ru": "Улучшены стабильность Wi-Fi roaming, рендер погодных иконок и логика переподключения."
 },
+"summary": {
+  "en": "Improved Wi-Fi power management, roaming responsiveness and page navigation hints.",
+  "ru": "Улучшены управление питанием Wi-Fi, скорость roaming и подсказки навигации между страницами."
+},
 "notes": {
   "en": [
-    "Today weather icons are now properly centered using their real scaled PNG dimensions.",
-    "Reworked Wi-Fi roaming logic with preferred Wi-Fi reconnection and smarter BSSID selection.",
-    "Fixed redundant reconnect attempts when opening the Device Info screen.",
-    "Roaming thresholds are now more aggressive with RSSI-based AP switching for better signal stability."
+    "Restored adaptive Wi-Fi power-save behavior with automatic sleep handling for Night Mode.",
+    "Wi-Fi power-save is now disabled before reconnect attempts for faster network recovery.",
+    "Added bottom navigation hints between Home, Today, Device Info and Control pages.",
+    "Reworked roaming logic with faster reconnects, shorter scan intervals and smarter BSSID fallback handling.",
+    "Roaming now triggers earlier on weak RSSI and switches APs more aggressively for better signal stability.",
+    "Disabled Wi-Fi sleep on ESP32 during active roaming and increased TX power for improved connection reliability."
   ],
   "ru": [
-    "Иконки погоды на Today теперь корректно центрируются с учётом реального размера масштабированных PNG.",
-    "Переработана логика Wi-Fi roaming: добавлено preferred Wi-Fi переподключение и более умный выбор BSSID.",
-    "Исправлены лишние попытки переподключения при открытии экрана Device Info.",
-    "Порог roaming стал агрессивнее: переключение между точками теперь учитывает RSSI для более стабильного сигнала."
+    "Возвращено адаптивное энергосбережение Wi-Fi с автоматическим управлением sleep-режимом для Night Mode.",
+    "Перед переподключением Wi-Fi power-save теперь временно отключается для более быстрого восстановления сети.",
+    "Добавлены нижние подсказки навигации между страницами Home, Today, Device Info и Control.",
+    "Переработана логика roaming: ускорены переподключения, уменьшены интервалы сканирования и улучшен fallback между BSSID.",
+    "Roaming теперь запускается раньше при слабом RSSI и агрессивнее переключается между точками доступа для более стабильного сигнала.",
+    "На ESP32 отключён Wi-Fi sleep во время активного roaming и увеличена мощность передачи для повышения стабильности соединения."
   ]
   },
   "build": {
