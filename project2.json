@@ -31,7 +31,7 @@
       }
     },
     "ESP32_ILI9488_TFT3_5": {
-      "version": "2.1.2",
+      "version": "2.1.3",
       "notes": {
 "en": [
   "Refined weather layout, smoother Wi-Fi indicator rendering and updated interface colors.",
