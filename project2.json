@@ -31,17 +31,15 @@
       }
     },
     "ESP32_ILI9488_TFT3_5": {
-      "version": "2.1.4",
+      "version": "2.1.5",
       "notes": {
 "en": [
-  "Refined weather layout, smoother Wi-Fi indicator rendering and updated interface colors.",
-  "Reduced screen flashing, improved auto-brightness behavior and optimized OTA update flow.",
-  "Added proper ADC4095 auto-brightness support for ESP32."
+  "Adjusted Wi-Fi icon proportions and improved Device Info alignment.",
+  "Snapshot generation is now available for regular users, and built-in web UI cache handling was improved."
 ],
 "ru": [
-  "Доработаны компоновка погоды, сглаживание отображения Wi-Fi индикатора и цвета интерфейса.",
-  "Уменьшено мигание экрана, улучшена работа автояркости и оптимизирован процесс OTA-обновления.",
-  "Добавлена полноценная поддержка автояркости ADC4095 для ESP32."
+  "Скорректированы пропорции Wi-Fi иконки и улучшено выравнивание Device Info.",
+  "Генерация снимков теперь доступна обычным пользователям, а также улучшена работа кэша встроенного веб-интерфейса."
 ]
       },
       "build": {
