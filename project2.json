@@ -33,10 +33,6 @@
 "ESP32_ILI9488_TFT3_5": {
   "version": "2.2.1",
 "summary": {
-  "en": "Improved Wi-Fi roaming stability, weather icon rendering and reconnect behavior.",
-  "ru": "Улучшены стабильность Wi-Fi roaming, рендер погодных иконок и логика переподключения."
-},
-"summary": {
   "en": "Improved Wi-Fi power management, roaming responsiveness and page navigation hints.",
   "ru": "Улучшены управление питанием Wi-Fi, скорость roaming и подсказки навигации между страницами."
 },
