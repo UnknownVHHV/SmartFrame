@@ -32,6 +32,10 @@
     },
     "ESP32_ILI9488_TFT3_5": {
       "version": "2.1.7",
+      "summary": {
+    "en": "New modular UI system, secure OTA TLS verification and improved weather/control pages.",
+    "ru": "Новая модульная система интерфейса, безопасная TLS-проверка OTA и улучшенные страницы погоды и управления."
+  },
       "notes": {
 "en": [
   "Introduced a new modular page/navigation system with improved touch handling and UI structure.",
