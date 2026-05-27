@@ -31,7 +31,7 @@
       }
     },
     "ESP32_ILI9488_TFT3_5": {
-      "version": "2.1.7",
+      "version": "2.1.8",
 "summary": {
   "en": "Improved modular UI, OTA workflow, Wi-Fi roaming and smarter Control screen behavior.",
   "ru": "Улучшены модульный интерфейс, OTA-поток, Wi-Fi roaming и логика работы экрана Control."
