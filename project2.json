@@ -31,27 +31,25 @@
       }
     },
 "ESP32_ILI9488_TFT3_5": {
-  "version": "2.2.1",
+  "version": "2.2.2",
 "summary": {
-  "en": "Improved Wi-Fi power management, roaming responsiveness and page navigation hints.",
-  "ru": "Улучшены управление питанием Wi-Fi, скорость roaming и подсказки навигации между страницами."
+  "en": "Added critical battery protection, safer deep sleep handling and improved UI cleanup.",
+  "ru": "Добавлена защита критического разряда батареи, безопасный deep sleep и улучшена очистка интерфейса."
 },
 "notes": {
   "en": [
-    "Restored adaptive Wi-Fi power-save behavior with automatic sleep handling for Night Mode.",
-    "Wi-Fi power-save is now disabled before reconnect attempts for faster network recovery.",
-    "Added bottom navigation hints between Home, Today, Device Info and Control pages.",
-    "Reworked roaming logic with faster reconnects, shorter scan intervals and smarter BSSID fallback handling.",
-    "Roaming now triggers earlier on weak RSSI and switches APs more aggressively for better signal stability.",
-    "Disabled Wi-Fi sleep on ESP32 during active roaming and increased TX power for improved connection reliability."
+    "Added critical battery protection with automatic deep sleep after sustained low-voltage detection.",
+    "Implemented battery monitoring with configurable warning and shutdown voltage thresholds.",
+    "Added dedicated 'Battery critically low' screen and graceful sleep transition handling.",
+    "Improved UI cleanup logic: Home screen hints no longer overwrite the lower information bar.",
+    "Optimized battery state handling to avoid accidental shutdowns during short voltage drops."
   ],
   "ru": [
-    "Возвращено адаптивное энергосбережение Wi-Fi с автоматическим управлением sleep-режимом для Night Mode.",
-    "Перед переподключением Wi-Fi power-save теперь временно отключается для более быстрого восстановления сети.",
-    "Добавлены нижние подсказки навигации между страницами Home, Today, Device Info и Control.",
-    "Переработана логика roaming: ускорены переподключения, уменьшены интервалы сканирования и улучшен fallback между BSSID.",
-    "Roaming теперь запускается раньше при слабом RSSI и агрессивнее переключается между точками доступа для более стабильного сигнала.",
-    "На ESP32 отключён Wi-Fi sleep во время активного roaming и увеличена мощность передачи для повышения стабильности соединения."
+    "Добавлена защита от критического разряда с автоматическим переходом в deep sleep при длительном низком напряжении.",
+    "Реализован мониторинг батареи с настраиваемыми порогами предупреждения и отключения.",
+    "Добавлен отдельный экран 'Battery critically low' и корректная обработка перехода в режим сна.",
+    "Улучшена очистка интерфейса: подсказки главного экрана больше не затирают нижнюю информационную область.",
+    "Оптимизирована логика контроля батареи для защиты от ложных отключений при кратковременных просадках напряжения."
   ]
   },
   "build": {
