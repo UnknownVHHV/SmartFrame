@@ -31,25 +31,33 @@
       }
     },
 "ESP32_ILI9488_TFT3_5": {
-  "version": "2.2.2",
+  "version": "2.2.5",
 "summary": {
-  "en": "Added critical battery protection, safer deep sleep handling and improved UI cleanup.",
-  "ru": "Добавлена защита критического разряда батареи, безопасный deep sleep и улучшена очистка интерфейса."
+  "en": "Enhanced battery management and night-time power saving for longer autonomous operation.",
+  "ru": "Улучшено управление батареей и ночное энергосбережение для увеличения времени автономной работы."
 },
 "notes": {
   "en": [
-    "Added critical battery protection with automatic deep sleep after sustained low-voltage detection.",
-    "Implemented battery monitoring with configurable warning and shutdown voltage thresholds.",
-    "Added dedicated 'Battery critically low' screen and graceful sleep transition handling.",
-    "Improved UI cleanup logic: Home screen hints no longer overwrite the lower information bar.",
-    "Optimized battery state handling to avoid accidental shutdowns during short voltage drops."
+    "Added a dedicated night power-saving profile.",
+    "Weather updates at night are now requested every 30 minutes instead of 10.",
+    "BME280 polling interval at night increased from 30 seconds to 2 minutes.",
+    "UI refresh rate at night reduced from 1 second to 2 seconds.",
+    "Improved low-battery protection with 3.35V warning threshold and 3.40V recovery hysteresis.",
+    "Low-battery mode now updates only battery-related information, dims the backlight and disables Wi-Fi immediately.",
+    "Battery percentage calculation and display have been recalibrated for better accuracy.",
+    "Fixed night-mode rendering issues causing incorrect temperature and time colors.",
+    "Daytime behavior remains unchanged."
   ],
   "ru": [
-    "Добавлена защита от критического разряда с автоматическим переходом в deep sleep при длительном низком напряжении.",
-    "Реализован мониторинг батареи с настраиваемыми порогами предупреждения и отключения.",
-    "Добавлен отдельный экран 'Battery critically low' и корректная обработка перехода в режим сна.",
-    "Улучшена очистка интерфейса: подсказки главного экрана больше не затирают нижнюю информационную область.",
-    "Оптимизирована логика контроля батареи для защиты от ложных отключений при кратковременных просадках напряжения."
+    "Добавлен отдельный ночной профиль энергосбережения.",
+    "Обновление погоды ночью выполняется раз в 30 минут вместо 10.",
+    "Интервал опроса BME280 ночью увеличен с 30 секунд до 2 минут.",
+    "Частота обновления интерфейса ночью снижена с 1 до 2 секунд.",
+    "Улучшена защита от разряда: предупреждение теперь появляется при 3.35В, а выход из него происходит при 3.40В.",
+    "В режиме низкого заряда обновляется только информация о батарее, подсветка автоматически снижается, а Wi-Fi сразу отключается.",
+    "Перекалиброван расчёт и отображение процента заряда аккумулятора.",
+    "Исправлены визуальные проблемы ночного режима, связанные с отображением времени и температуры.",
+    "Дневной режим работы оставлен без изменений."
   ]
   },
   "build": {
