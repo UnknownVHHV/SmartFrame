@@ -31,33 +31,25 @@
       }
     },
 "ESP32_ILI9488_TFT3_5": {
-  "version": "2.2.5",
+"version": "2.2.7",
 "summary": {
-  "en": "Enhanced battery management and night-time power saving for longer autonomous operation.",
-  "ru": "Улучшено управление батареей и ночное энергосбережение для увеличения времени автономной работы."
+  "en": "Improved OTA experience, firmware update information and offline operation.",
+  "ru": "Улучшены OTA-обновления, отображение информации о прошивке и работа без подключения к сети."
 },
 "notes": {
   "en": [
-    "Added a dedicated night power-saving profile.",
-    "Weather updates at night are now requested every 30 minutes instead of 10.",
-    "BME280 polling interval at night increased from 30 seconds to 2 minutes.",
-    "UI refresh rate at night reduced from 1 second to 2 seconds.",
-    "Improved low-battery protection with 3.35V warning threshold and 3.40V recovery hysteresis.",
-    "Low-battery mode now updates only battery-related information, dims the backlight and disables Wi-Fi immediately.",
-    "Battery percentage calculation and display have been recalibrated for better accuracy.",
-    "Fixed night-mode rendering issues causing incorrect temperature and time colors.",
-    "Daytime behavior remains unchanged."
+    "Smoothed OTA update progress with additional intermediate stages for more accurate status reporting.",
+    "Firmware Update card now supports longer summaries and improved text layout.",
+    "Redesigned no-Wi-Fi screen to display waiting status together with local sensor data.",
+    "Temperature, humidity and pressure remain visible even when network connection is unavailable.",
+    "Improved OTA user experience by reducing abrupt progress jumps."
   ],
   "ru": [
-    "Добавлен отдельный ночной профиль энергосбережения.",
-    "Обновление погоды ночью выполняется раз в 30 минут вместо 10.",
-    "Интервал опроса BME280 ночью увеличен с 30 секунд до 2 минут.",
-    "Частота обновления интерфейса ночью снижена с 1 до 2 секунд.",
-    "Улучшена защита от разряда: предупреждение теперь появляется при 3.35В, а выход из него происходит при 3.40В.",
-    "В режиме низкого заряда обновляется только информация о батарее, подсветка автоматически снижается, а Wi-Fi сразу отключается.",
-    "Перекалиброван расчёт и отображение процента заряда аккумулятора.",
-    "Исправлены визуальные проблемы ночного режима, связанные с отображением времени и температуры.",
-    "Дневной режим работы оставлен без изменений."
+    "Сглажен прогресс OTA-обновления: добавлены промежуточные этапы для более точного отображения состояния.",
+    "Карточка Firmware Update теперь поддерживает более длинные summary и улучшенную компоновку текста.",
+    "Переработан экран отсутствия Wi-Fi: теперь отображается статус ожидания подключения и локальные данные датчиков.",
+    "Температура, влажность и давление остаются доступными даже при отсутствии сети.",
+    "Улучшено визуальное восприятие OTA-процесса за счёт уменьшения резких скачков прогресса."
   ]
   },
   "build": {
