@@ -33,8 +33,8 @@
 "ESP32_ILI9488_TFT3_5": {
 "version": "2.3.0",
 "summary": {
-  "en": "Added Maximum Night Power Saving mode, completed TLS hardening and improved system reliability.",
-  "ru": "Добавлен режим Maximum Night Power Saving, завершено усиление TLS-безопасности и повышена надёжность системы."
+  "en": "Added Maximum Night Power Saving mode, improved update security and increased overall system reliability.",
+  "ru": "Добавлен режим Maximum Night Power Saving, улучшена безопасность обновлений и повышена общая надёжность системы."
 },
 "notes": {
   "en": [
@@ -42,10 +42,11 @@
     "Device can now wake up using the ESP32 RTC timer and resume normal operation automatically.",
     "Night power-saving activation is blocked when time synchronization is unavailable or battery is critical.",
     "OTA manifest and firmware downloads now require strict TLS validation and reject insecure redirects.",
-    "Battery protection logic now uses raw voltage readings while the user interface displays filtered values.",
-    "Added validation and recovery handling for corrupted touch calibration data.",
-    "Moved TFT implementation into a dedicated module for cleaner architecture and maintainability.",
-    "Removed remaining deprecated ArduinoJson calls and improved compile-time type safety."
+    "Battery protection logic now uses raw voltage readings while the interface continues to display filtered values.",
+    "Improved handling of touch calibration data and added recovery for corrupted calibration files.",
+    "Expanded icon storage capacity and improved internal error handling.",
+    "Improved stability of timers, file system initialization and configuration storage.",
+    "Removed remaining legacy components and performed additional reliability improvements."
   ],
   "ru": [
     "Добавлен режим Maximum Night Power Saving с автоматическим переходом в deep sleep в заданные ночные часы.",
@@ -53,9 +54,10 @@
     "Включение ночного энергосбережения блокируется при отсутствии синхронизации времени или критическом заряде батареи.",
     "OTA-манифест и загрузка прошивки теперь используют строгую TLS-проверку и отклоняют небезопасные редиректы.",
     "Логика защиты батареи переведена на сырые значения напряжения, при этом интерфейс продолжает показывать сглаженные данные.",
-    "Добавлена проверка и восстановление повреждённых данных калибровки сенсора.",
-    "TFT-реализация вынесена в отдельный модуль для упрощения архитектуры и сопровождения кода.",
-    "Удалены оставшиеся устаревшие вызовы ArduinoJson и улучшена типобезопасность проекта."
+    "Улучшена обработка данных калибровки сенсора и добавлено восстановление при повреждении файла калибровки.",
+    "Увеличен внутренний буфер иконок и улучшена обработка ошибок.",
+    "Повышена стабильность работы таймеров, файловой системы и хранения настроек.",
+    "Удалены оставшиеся устаревшие компоненты и выполнены дополнительные улучшения надёжности."
   ]
   },
   "build": {
