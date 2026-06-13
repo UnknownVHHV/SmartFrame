@@ -31,25 +31,31 @@
       }
     },
 "ESP32_ILI9488_TFT3_5": {
-"version": "2.2.7",
+"version": "2.3.0",
 "summary": {
-  "en": "Improved OTA experience, firmware update information and offline operation.",
-  "ru": "Улучшены OTA-обновления, отображение информации о прошивке и работа без подключения к сети."
+  "en": "Added Maximum Night Power Saving mode, completed TLS hardening and improved system reliability.",
+  "ru": "Добавлен режим Maximum Night Power Saving, завершено усиление TLS-безопасности и повышена надёжность системы."
 },
 "notes": {
   "en": [
-    "Smoothed OTA update progress with additional intermediate stages for more accurate status reporting.",
-    "Firmware Update card now supports longer summaries and improved text layout.",
-    "Redesigned no-Wi-Fi screen to display waiting status together with local sensor data.",
-    "Temperature, humidity and pressure remain visible even when network connection is unavailable.",
-    "Improved OTA user experience by reducing abrupt progress jumps."
+    "Added Maximum Night Power Saving mode with automatic deep sleep during configured night hours.",
+    "Device can now wake up using the ESP32 RTC timer and resume normal operation automatically.",
+    "Night power-saving activation is blocked when time synchronization is unavailable or battery is critical.",
+    "OTA manifest and firmware downloads now require strict TLS validation and reject insecure redirects.",
+    "Battery protection logic now uses raw voltage readings while the user interface displays filtered values.",
+    "Added validation and recovery handling for corrupted touch calibration data.",
+    "Moved TFT implementation into a dedicated module for cleaner architecture and maintainability.",
+    "Removed remaining deprecated ArduinoJson calls and improved compile-time type safety."
   ],
   "ru": [
-    "Сглажен прогресс OTA-обновления: добавлены промежуточные этапы для более точного отображения состояния.",
-    "Карточка Firmware Update теперь поддерживает более длинные summary и улучшенную компоновку текста.",
-    "Переработан экран отсутствия Wi-Fi: теперь отображается статус ожидания подключения и локальные данные датчиков.",
-    "Температура, влажность и давление остаются доступными даже при отсутствии сети.",
-    "Улучшено визуальное восприятие OTA-процесса за счёт уменьшения резких скачков прогресса."
+    "Добавлен режим Maximum Night Power Saving с автоматическим переходом в deep sleep в заданные ночные часы.",
+    "Устройство теперь может просыпаться по RTC-таймеру ESP32 и автоматически возвращаться к обычной работе.",
+    "Включение ночного энергосбережения блокируется при отсутствии синхронизации времени или критическом заряде батареи.",
+    "OTA-манифест и загрузка прошивки теперь используют строгую TLS-проверку и отклоняют небезопасные редиректы.",
+    "Логика защиты батареи переведена на сырые значения напряжения, при этом интерфейс продолжает показывать сглаженные данные.",
+    "Добавлена проверка и восстановление повреждённых данных калибровки сенсора.",
+    "TFT-реализация вынесена в отдельный модуль для упрощения архитектуры и сопровождения кода.",
+    "Удалены оставшиеся устаревшие вызовы ArduinoJson и улучшена типобезопасность проекта."
   ]
   },
   "build": {
